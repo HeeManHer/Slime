@@ -1,4 +1,4 @@
-package slime2;
+package slime;
 
 import java.util.Scanner;
 
