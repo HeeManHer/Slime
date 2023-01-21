@@ -8,13 +8,13 @@ public class Human extends CharactersDTO {
 		setAtk(10);
 	}
 
-	public void Info() {
+	public void info() {
 		System.out.println("직업 : " + getName());
 		System.out.println("체력 : " + getHp());
 		System.out.println("공격력 : " + getAtk());
 	}
 
-	public void Heal() {
+	public void heal() {
 		if (getHp() >= 80) {
 			System.out.println("체력은 충분하군.");
 		} else {
