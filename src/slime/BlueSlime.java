@@ -1,4 +1,4 @@
-package slime2;
+package slime;
 
 public class BlueSlime extends Slime {
 
