@@ -4,7 +4,6 @@ public class Slime extends CharactersDTO {
 
 	public Slime() {}
 
-	// 생성자
 	public Slime(String name) {
 		setName(name);
 		setHp(50);
@@ -19,7 +18,6 @@ public class Slime extends CharactersDTO {
 		attack(hunter, getAtk());
 	}
 
-	// 공격
 	public void attack(Human hunter, int damage) {
 		if (getHp() > 0) {
 			hunter.setHp(hunter.getHp() - damage);
