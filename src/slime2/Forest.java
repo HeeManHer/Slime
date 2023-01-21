@@ -6,7 +6,7 @@ public class Forest {
 
 	Scanner sc = new Scanner(System.in);
 	
-	public void Enter(Human hunter) {
+	public void enter(Human hunter) {
 		
 		if(hunter.getHp()<1) {
 			System.out.println("누군가 "+hunter.getName()+"을 숲의 입구까지 옮겼다.");
@@ -45,7 +45,6 @@ public class Forest {
 		
 	}
 	
-
 	public void go(Human hunter, Slime s) {
 
 		Slime slime = s.getInstance();
