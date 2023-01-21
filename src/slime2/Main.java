@@ -15,7 +15,7 @@ public class Main {
 		while (true) {
 			
 			if(hunter.getHp()<1) {
-				hunter.Heal();
+				hunter.heal();
 				System.out.println("죽을 뻔 했군. 좀 더 신중하게 행동해야 겠어.");
 			}
 			
@@ -30,13 +30,13 @@ public class Main {
 
 			switch (no) {
 			case 1:
-				hunter.Info();
+				hunter.info();
 				break;
 			case 2:
-				hunter.Heal();
+				hunter.heal();
 				break;
 			case 3:
-				forest.Enter(hunter);
+				forest.enter(hunter);
 				break;
 			case 9:
 				System.out.println("오늘은 그만하겠어.");
